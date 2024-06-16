@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fort_ify</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'><link rel="stylesheet" href="front.css">
+
+</head>
+<body>
+<section id="top">
+      <img src="https://assets.cntraveller.in/photos/612670a215e6c3223c8901d0/master/w_1600,c_limit/Rajgad%20Fort.jpg" id="bg" />
+      <h2 id="text">  FORTify</h2>
+      <!-- <img src="https://aryan-tayal.github.io/Mountains-Parallax/man.png" id="man" /> -->
+      <!-- <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1" /> -->
+      <!-- <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2" /> -->
+      <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="mountain_left" />
+      <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="mountain_right" />
+    </section>
+    <section id="sec">
+      <h2>Welcome to महाराष्ट्र Tour</h2>
+      <div class="animate">
+        <a href="/card"><nav>
+          <ul>
+            <li>
+              explore
+              <span></span><span></span><span></span><span></span>
+            </li>
+          </ul>
+        </nav></a>
+      </div>
+    </section>
+  <script  >const mountainLeft = document.querySelector('#mountain_left');
+    const mountainRight = document.querySelector('#mountain_right');
+    const cloud1 = document.querySelector('#clouds_1');
+    const cloud2 = document.querySelector('#clouds_2');
+    const text = document.querySelector('#text');
+    const man = document.querySelector('#man');
+    window.addEventListener('scroll',()=>{
+    let value = scrollY;
+    mountainLeft.style.left = `-${value/0.7}px`
+    cloud2.style.left = `-${value*2}px`
+    mountainRight.style.left = `${value/0.7}px`
+    cloud1.style.left = `${value*2}px`
+    text.style.bottom = `-${value}px`;
+    man.style.height = `${window.innerHeight - value}px`
+})
+    </script>
+
+
+</body>
+</html>
