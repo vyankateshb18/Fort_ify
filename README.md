@@ -1,2 +1,3 @@
-# Fort_ify
-Fortify is your go-to guide for exploring Maharashtra's historical forts, scenic trekking routes, and captivating attractions. Discover the rich heritage of iconic forts , trek through picturesque landscapes, and uncover hidden gems .
+Fortify is a comprehensive guide to forts, trekking destinations, and other attractions in Maharashtra. 
+It offers detailed descriptions of each location, including historical background, trekking information, and nearby attractions. 
+Fortify aims to be a one-stop resource for history enthusiasts, adventure seekers, and travelers looking to explore Maharashtra's rich heritage and natural beauty.
